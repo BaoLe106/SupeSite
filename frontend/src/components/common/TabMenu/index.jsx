@@ -1,7 +1,5 @@
-import React from "react";
 
-const TabMenu = (props) => {
-    const { selection, tabTitles } = props;
+const TabMenu = ({ tabSelection, tabTitles }) => {
     return (
         <>
             {tabTitles.map((title, index) => {
