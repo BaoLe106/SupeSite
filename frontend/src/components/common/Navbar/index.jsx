@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TabMenu from "../TabMenu";
+import NavMenu from "../NavMenu";
 
 function Navbar() {
     const [tabSelection, setTabSelection] = useState(0);
@@ -22,7 +22,7 @@ function Navbar() {
     const { tabTitles } = getTabData();
     return (
         <>
-            <TabMenu 
+            <NavMenu 
                 tabSelection={tabSelection}
                 tabTitles={tabTitles}
             />
