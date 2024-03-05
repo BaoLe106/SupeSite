@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
-import Homepage from "./components/Homepage";
+import Homepage from "./components/Homepage/Homepage";
 
 
 function App() {
