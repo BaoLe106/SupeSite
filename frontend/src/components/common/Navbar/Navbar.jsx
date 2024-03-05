@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { iconOrder } from "../constant/icon_constant.jsx";
-import "./styles.css"
 
 import {
     NavbarContainer,
