@@ -6,12 +6,14 @@ import { SortIcon } from "../common/constant/icon_constant.jsx";
 
 import Navbar from "../common/Navbar/Navbar.jsx";
 import Searchbar from "./Searchbar/Searchbar.jsx";
+import FolderButton from "./FolderButton/FolderButton.jsx";
+import SortButton from "./SortButton/SortButton.jsx";
 import {
     HomepageContainer, 
     SidebarContainer,
     Logo,
     HomepageContent,
-    
+    HomepageHeader,
 } from "./styles.jsx"
 
 
@@ -27,7 +29,12 @@ function Homepage() {
                 {SupeSiteLogo}
             </Logo>
             <HomepageContent>
-                <Searchbar/>
+                <HomepageHeader>
+                    <FolderButton/>
+                    <SortButton/>
+                    <Searchbar/>
+                </HomepageHeader>
+                
             </HomepageContent>
         </HomepageContainer>
         // <div className="homepage-container">
