@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const SearchbarContainer = styled.div`
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
 `;
 
 export const SearchbarInput = styled.input`

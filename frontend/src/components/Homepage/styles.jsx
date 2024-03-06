@@ -26,3 +26,10 @@ export const HomepageContent = styled.div`
     align-items: center;
     // grid-template-rows: 50px 350px 50px;
 `;
+
+export const HomepageHeader = styled.div`
+    // grid-row: span 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+`;
